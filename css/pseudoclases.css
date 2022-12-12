@@ -80,19 +80,69 @@ label {
 	color: #FCF7F8;
 }
 
+.parrafos p:last-child{
+	background: black;
+	color: #FCF7F8;
+}
+
 
 /* ? --- --- --- --- ELEMENTOS --- --- --- --- */
 
+.elementos p:first-of-type{
+	background: greenyellow;
+	color: lightcoral;
+
+}
+
+.elementos div:last-of-type{
+	background: cadetblue;
+	color:  darkmagenta;
+
+}
+
 
 /* ? --- --- --- --- LISTA --- --- --- --- */
+
+.lista :nth-child(2){
+
+	background: cadetblue;
+	color:  white;
+
+}
+
+.lista :nth-last-child(3){
+
+	background: cadetblue;
+	color:  white;
+
+}
 
 
 
 /* ? --- --- --- --- LISTA 2 --- --- --- --- */
 
+.lista2 p:nth-of-type(2){
+	background: cadetblue;
+	color:  white;
+
+}
+
+.lista2 div:nth-last-of-type(2){
+	background: cadetblue;
+	color:  white;
+
+}
+
 
 
 /* ? --- --- --- --- LISTA 3 --- --- --- --- */
+
+.lista3 :only-child{
+
+	background: cadetblue;
+	color:  white;
+
+}
 
 
 
