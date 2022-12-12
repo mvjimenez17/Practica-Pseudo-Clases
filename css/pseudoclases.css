@@ -137,7 +137,7 @@ label {
 
 /* ? --- --- --- --- LISTA 3 --- --- --- --- */
 
-.lista3 :only-child{
+.lista3 p:only-child{
 
 	background: cadetblue;
 	color:  white;
@@ -147,3 +147,9 @@ label {
 
 
 /* ? --- --- --- --- LISTA 4 --- --- --- --- */
+
+.lista4 p:only-of-type{
+
+	background: cadetblue;
+	color:  white;
+}
